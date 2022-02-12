@@ -45,7 +45,7 @@ test("One pound should be 159.875 yen", function(){
     //if 1 euro are 1.206 dollrs, then 3.5 euros should be (3.5'1.2)
     const expected = 3.5 * 159.875;
 
-    //this is the comparison for the unit test
+    //this is the comparison for the unit test.
     expect(fromYenToPound(3.5)).toBe(expected);
 
 });
